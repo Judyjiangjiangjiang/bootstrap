@@ -180,8 +180,6 @@ const getjQuery = () => {
   return null
 }
 
-const isRTL = document.documentElement.dir === 'rtl'
-
 const onDOMContentLoaded = callback => {
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', callback)
@@ -189,6 +187,8 @@ const onDOMContentLoaded = callback => {
     callback()
   }
 }
+
+const isRTL = document.documentElement.dir === 'rtl'
 
 export {
   TRANSITION_END,
