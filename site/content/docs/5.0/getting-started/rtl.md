@@ -50,7 +50,8 @@ You can see the above requirements reflected in this modified RTL starter templa
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="{{< param "cdn.js_bundle" >}}" integrity="{{< param "cdn.js_bundle_hash" >}}" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper.js and Bootstrap JS
+    <!-- Option 2: Separate Popper.js and Bootstrap JS -->
+    <!--
     <script src="{{< param "cdn.popper" >}}" integrity="{{< param "cdn.popper_hash" >}}" crossorigin="anonymous"></script>
     <script src="{{< param "cdn.js" >}}" integrity="{{< param "cdn.js_hash" >}}" crossorigin="anonymous"></script>
     -->
